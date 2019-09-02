@@ -54,7 +54,7 @@
 
   ``` bash
   npm run pub
-  // 上面的命令效果与下面的命令效果一样
+  # 上面的命令效果与下面的命令效果一样
   npm build
   npm publish
   ```
@@ -67,13 +67,13 @@
 + 下载：
 
   ``` bash
-  npm i react-demo-component // 假设你的包名字叫react-demo-component
+  npm i react-demo-component # 假设你的包名字叫react-demo-component
   ```
 + 使用方法：
 
   ``` bash
-  // 组件中引入
+  # 组件中引入
   import ReactDemo from 'react-demo-component';
-  // 如果给组件写了样式，需要手动导入css文件
+  # 如果给组件写了样式，需要手动导入css文件
   import 'react-demo-component/lib/main.min.css';
   ```

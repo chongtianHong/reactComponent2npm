@@ -25,6 +25,7 @@ const devConfig = {
 	devServer: {
     contentBase: path.join(__dirname, '../example/src/'),
     compress: true,
+    host: '127.0.0.1', // webpack-dev-server启动时要指定ip，不能直接通过localhost启动，不指定会报错
     port: 3001, // 启动端口为 3001 的服务
     open: true // 自动打开浏览器
   },
